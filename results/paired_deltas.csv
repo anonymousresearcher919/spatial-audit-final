@@ -1,0 +1,4 @@
+family,magnitude,localization,n_slides,delta_D,ci_lo,ci_hi,p_gt0,interpretable
+lr_magnitude -> lr_hotspot,lr_magnitude,lr_hotspot,61,0.329,0.237,0.442,1.000,True
+mcp -> mcp_hotspot,mcp,mcp_hotspot,54,0.317,0.166,0.450,1.000,True
+moran -> lisa,moran,lisa,61,0.440,,,,False

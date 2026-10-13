@@ -1,0 +1,11 @@
+conditioner,family,delta_D,provenance
+spline,LR,0.329,submitted
+linear,LR,0.311,submitted
+rf,LR,0.348,submitted
+gbm,LR,0.341,submitted
+knn,LR,0.318,submitted
+spline,MCP,0.317,response period
+linear,MCP,0.363,response period
+rf,MCP,0.318,response period
+gbm,MCP,0.29,response period
+knn,MCP,0.3,response period

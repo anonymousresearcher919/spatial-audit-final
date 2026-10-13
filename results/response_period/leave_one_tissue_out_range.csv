@@ -1,0 +1,5 @@
+family,bound,delta_D
+LR,min,0.292
+LR,max,0.424
+MCP,min,0.256
+MCP,max,0.341

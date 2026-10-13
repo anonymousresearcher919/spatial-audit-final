@@ -1,0 +1,20 @@
+check,value,note
+recoverability cutoff 0.3,11,distinct-and-recoverable operators
+recoverability cutoff 0.5,6,reported in the paper
+recoverability cutoff 0.7,4,coexpr/lisa/lr_hotspot/mcp_hotspot; subset of the six
+conditioner=spline,0.329,LR family paired delta D
+conditioner=linear,0.311,LR family paired delta D
+conditioner=rf,0.348,LR family paired delta D
+conditioner=gbm,0.341,LR family paired delta D
+conditioner=knn,0.318,LR family paired delta D
+rich 8-feature baseline,0.436,wider conditioner widens the gap
+leave-out STPath,0.341,LR family paired delta D
+leave-out DeepSpot-M,0.336,LR family paired delta D
+leave-out OmiCLIP,0.368,LR family paired delta D
+leave-out Ridge,0.312,LR family paired delta D
+leave-out PLS,0.265,LR family paired delta D
+leave-out kNN,0.324,LR family paired delta D
+cv partitions (50 random),0.329,median; all 50 positive
+split-half reliability lr_magnitude,0.994,Spearman-Brown corrected
+split-half reliability lr_hotspot,0.992,Spearman-Brown corrected
+reliability-adjusted delta D,0.330,moves the raw value by 0.001

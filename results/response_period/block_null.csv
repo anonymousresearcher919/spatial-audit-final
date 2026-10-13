@@ -1,0 +1,3 @@
+operator,spot_shuffle,block_permutation,n_blocks,B
+lr_magnitude,0.869,0.847,25,99
+lr_hotspot,0.798,0.784,25,99

@@ -1,0 +1,8 @@
+predictor,rho_magnitude,rho_hotspot,gap
+STPath,0.822,0.629,0.193
+DeepSpot-M,0.835,0.621,0.214
+OmiCLIP,0.798,0.569,0.229
+kNN,0.851,0.600,0.251
+Ridge,0.864,0.576,0.288
+PLS,0.889,0.552,0.337
+pooled,0.845,0.602,0.241

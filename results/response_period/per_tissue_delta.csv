@@ -1,0 +1,5 @@
+tissue,n_slides,family,delta_D
+ccRCC,24,LR,0.484
+ccRCC,24,MCP,0.339
+PRAD,23,LR,0.245
+PRAD,23,MCP,0.143

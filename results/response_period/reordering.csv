@@ -1,0 +1,7 @@
+operator,group,reversal,rev_lo,rev_hi
+lr_magnitude,B,0.099,0.079,0.121
+mcp,B,0.106,0.085,0.13
+lr_hotspot,A,0.181,0.149,0.219
+lisa,A,0.25,0.203,0.299
+coexpr,A,0.366,0.323,0.41
+spatialdm,A,0.367,0.328,0.405

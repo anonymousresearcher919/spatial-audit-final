@@ -1,0 +1,5 @@
+operator,units,r_raw,r_resid,resid_lo,resid_hi,r_half,r_sb,D,D_corrected
+lr_magnitude,2243 LR pairs,0.994,0.977,0.965,0.982,,,0.118,
+lr_hotspot,2243 LR pairs,0.992,0.987,0.978,0.991,,,0.448,
+mcp,7 of 8 lineages,,,,,0.864,0.927,0.093,0.022
+mcp_hotspot,7 of 8 lineages,,,,,0.779,0.876,0.41,0.326

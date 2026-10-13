@@ -1,0 +1,16 @@
+operator,family,group,n_slides,B,recoverability,rec_lo,rec_hi,D,D_lo,D_hi,tissue_spread
+spatialdm,lr,A: recoverable and distinct,61,99,0.596,0.537,0.660,0.863,0.729,0.922,0.204
+coexpr,coexpr,A: recoverable and distinct,61,99,0.940,0.902,0.970,0.818,0.698,0.898,0.410
+domain_boundary,domain,A: recoverable and distinct,61,39,0.596,0.505,0.683,0.735,0.587,0.907,0.379
+lisa,autocorr,A: recoverable and distinct,61,99,0.770,0.701,0.836,0.657,0.475,0.925,0.182
+lr_hotspot,lr,A: recoverable and distinct,61,99,0.798,0.740,0.844,0.448,0.338,0.556,0.216
+mcp_hotspot,lineage,A: recoverable and distinct,54,99,0.821,0.753,0.867,0.410,0.253,0.548,0.181
+lr_magnitude,lr,B: redundant anchor,61,99,0.869,0.822,0.915,0.118,0.077,0.150,0.023
+progeny,pathway,B: redundant anchor,55,99,0.836,0.751,0.911,0.099,0.064,0.140,0.093
+mcp,lineage,B: redundant anchor,54,99,0.917,0.873,0.951,0.093,0.056,0.136,0.015
+svg_top200,autocorr,C: fails recoverability,61,99,0.262,0.228,0.295,1.000,0.955,1.000,0.004
+domain_ari,domain,C: fails recoverability,61,39,0.314,0.236,0.400,0.959,0.808,1.000,0.042
+domain_nmi,domain,C: fails recoverability,61,39,0.374,0.291,0.455,0.954,0.776,1.000,0.090
+moran,autocorr,C: fails recoverability,61,99,0.344,0.303,0.391,0.946,0.841,0.981,0.123
+moran_pea,autocorr,C: fails recoverability,61,99,0.336,0.294,0.394,0.934,0.833,0.972,0.103
+neighborhood,lineage,C: fails recoverability,54,99,0.417,0.336,0.503,0.928,0.846,1.000,0.040

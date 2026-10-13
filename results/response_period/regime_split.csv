@@ -1,0 +1,5 @@
+regime,predictors,n_models,family,delta_D
+in-domain supervised,Ridge+PLS+kNN,3,LR,0.359
+in-domain supervised,Ridge+PLS+kNN,3,MCP,0.51
+pretrained transfer,STPath+DeepSpot-M,2,LR,0.355
+pretrained transfer,STPath+DeepSpot-M,2,MCP,0.169

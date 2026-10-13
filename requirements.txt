@@ -1,0 +1,24 @@
+# The versions the published numbers were produced with.
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.5.2
+python-igraph==0.11.6
+leidenalg==0.10.2
+matplotlib==3.9.2
+tqdm==4.66.5
+
+# optional, for the batched permutation path
+# torch==2.4.1
+
+# tests
+pytest==8.3.3
+
+# The suite also passes on a much newer stack: numpy 2.5.3, pandas 3.0.5,
+# scikit-learn 1.9.1, scipy 1.18.1. Two incompatibilities to know about if you
+# upgrade rather than pin:
+#   - numpy 2 removed ndarray.ptp(); use np.ptp(a)
+#   - scikit-learn's RidgeCV alpha selection is not bit-identical across
+#     minor versions, so D can move in the third decimal. The group
+#     assignments in Table 1 are unaffected; a bit-exact reproduction of the
+#     published values needs the pinned versions above.

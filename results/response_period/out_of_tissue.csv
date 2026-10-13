@@ -1,0 +1,7 @@
+cohort,tissues,n_slides,family,delta_D,ci_lo,ci_hi
+primary,ccRCC+PRAD,47,LR,0.345,0.214,0.428
+primary,ccRCC+PRAD,47,MCP,0.282,0.145,0.44
+held-out,COAD+READ+LYMPH_IDC+HCC,14,LR,0.478,0.158,0.727
+held-out,COAD+READ+LYMPH_IDC+HCC,14,MCP,0.367,0.091,0.714
+all,all six,61,LR,0.329,0.225,0.439
+all,all six,61,MCP,0.317,0.169,0.451

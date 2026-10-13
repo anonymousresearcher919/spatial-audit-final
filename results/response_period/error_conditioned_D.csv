@@ -1,0 +1,9 @@
+family,baseline,conditioner,D_mag,D_loc,delta_D
+LR,accuracy only (reported),spline,0.118,0.448,0.329
+LR,+ error magnitude,linear,0.115,0.468,0.353
+LR,+ error smoothness,linear,0.114,0.449,0.335
+LR,+ both,linear,0.115,0.452,0.338
+MCP,accuracy only (reported),spline,0.093,0.41,0.317
+MCP,+ error magnitude,linear,0.09,0.435,0.346
+MCP,+ error smoothness,linear,0.088,0.458,0.37
+MCP,+ both,linear,0.088,0.444,0.356
